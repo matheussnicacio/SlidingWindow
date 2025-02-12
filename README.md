@@ -1,3 +1,5 @@
+Portugues:
+
 • Foi criado um Array para contar a frequência de cada letra de (A-Z);
 
 • Variavél de comprimento da string de entrada;
@@ -14,4 +16,21 @@
 
 • if : Atualiza maximo se necessario.
 
+English:
+
+- An Array has been created to count the frequency of each letter from (A-Z);
+
+- Variable for the length of the input string;
+
+- Variable for the start of the sliding window;
+
+- Repetition loop with For with 'end' to mark the end of the sliding window;
+
+- For increments frequency of current character and Subtracts 'a' to map a-z to 0-25;
+
+- While : If it finds more than 2 occurrences of the current character, it reduces the window until it becomes valid again;
+
+- currLen : Calculates size of current window;
+
+- if : Update max if necessary.
 
